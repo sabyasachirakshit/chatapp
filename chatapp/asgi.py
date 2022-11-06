@@ -14,6 +14,6 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chatapp.settings')
 
 
-ASGI_APPLICATION = 'chatapp.asgi.application'
+
 
 application = get_asgi_application()
